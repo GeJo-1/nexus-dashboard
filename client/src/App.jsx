@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import DashboardPage from './components/pages/DashboardPage';
-import OrdersPage from './components/pages/OrdersPage';
-import AnalyticsPage from './components/pages/AnalyticsPage';
-import SettingsPage from './components/pages/SettingsPage';
+import DashboardPage from './pages/DashboardPage';
+import OrdersPage from './pages/OrdersPage';
+import AnalyticsPage from './pages/AnalyticsPage';
+import SettingsPage from './pages/SettingsPage';
 
 // Simple placeholder for empty pages
 const Placeholder = ({ title }) => (

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { LayoutDashboard, ShoppingCart, Activity, Plus, X, Trash2 } from 'lucide-react';
-import API_URL from '../api'; // Imported and now USED below
+import API_URL from '../api';
 
 // Import your custom components
 import ProductScene from '../components/ProductScene';
